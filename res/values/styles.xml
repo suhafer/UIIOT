@@ -1,0 +1,120 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <!-- Login n startup theme. -->
+    <style name="LogTheme">
+		<item name="android:windowTitleBackgroundStyle">@style/title_background</item>
+		<item name="android:windowBackground">@drawable/bg</item>
+	</style>
+     
+    <style name="title_background">
+		<item name="android:background">@android:color/transparent</item>
+	</style>
+    
+    
+	 <style name="CustomActionBarTheme"
+           parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    	<item name="android:actionModeBackground">@color/bg_action_bar</item>
+        <item name="android:actionMenuTextColor">@color/titletextcolor</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="MyActionBar"
+           parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/titlebackgroundcolor</item>
+         <item name="android:textColorHighlight">@color/titlebackgroundcolor</item>
+        <item name="android:titleTextStyle">@style/myTheme.ActionBar.Text</item>
+    </style>
+
+    <style name="myTheme.ActionBar.Text" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/titletextcolor</item>
+    </style>
+    
+    <style name="AppTheme1" parent="@style/_AppTheme"/>
+	
+	  <style name="_AppTheme" parent="android:Theme.Holo.Light">
+		<item name="android:actionBarStyle">@style/MyActionBar</item>
+	    <item name="android:listChoiceBackgroundIndicator">@drawable/apptheme_list_selector_holo_light</item>
+	
+	    <item name="android:activatedBackgroundIndicator">@drawable/apptheme_activated_background_holo_light</item>
+	
+	  </style>
+    
+    
+    
+    <style name="Theme.Uiiot" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_uiiot</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Uiiot</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Uiiot</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Uiiot</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Uiiot</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Uiiot</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_uiiot</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_uiiot</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Uiiot</item>
+        
+        
+    </style>
+
+    <style name="ActionBar.Solid.Uiiot" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:background">@drawable/ab_solid_uiiot</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_uiiot</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_uiiot</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Uiiot</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Uiiot" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_uiiot</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Uiiot</item>
+    </style>
+
+    <style name="PopupMenu.Uiiot" parent="@android:style/Widget.Holo.Light.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_uiiot</item>	
+    </style>
+
+    <style name="DropDownListView.Uiiot" parent="@android:style/Widget.Holo.Light.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_uiiot</item>
+    </style>
+
+    <style name="ActionBarTabStyle.Uiiot" parent="@android:style/Widget.Holo.Light.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_uiiot</item>
+    </style>
+
+    <style name="DropDownNav.Uiiot" parent="@android:style/Widget.Holo.Light.Spinner">
+        <item name="android:background">@drawable/spinner_background_ab_uiiot</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_uiiot</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_uiiot</item>
+    </style>
+    
+    <style name="ProgressBar.Uiiot" parent="@android:style/Widget.Holo.Light.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_uiiot</item>
+    </style>
+    
+    <style name="ActionButton.CloseMode.Uiiot" parent="@android:style/Widget.Holo.Light.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_uiiot</item>
+    </style>
+
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Uiiot.Widget" parent="@android:style/Theme.Holo">
+        <item name="android:popupMenuStyle">@style/PopupMenu.Uiiot</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Uiiot</item>
+    </style>
+    
+</resources>

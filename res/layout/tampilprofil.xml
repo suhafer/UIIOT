@@ -1,0 +1,93 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+>
+<!--android:background="@drawable/kotak_nebeng"  -->
+  	
+   		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:src="@drawable/title3"
+			android:contentDescription="@string/app_name"
+		/>
+	
+		<RelativeLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+			android:layout_gravity="center"
+		    >
+			
+			<TextView 
+		        android:id="@+id/jnama"
+		        android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginStart="15dp"
+		            android:layout_marginLeft="15dp"
+		            android:textIsSelectable="true"
+		            android:textSize="12sp"
+		            android:text="@string/jnama"
+		        />
+		
+		    <TextView
+		        android:id="@+id/jnpm"
+		        android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"            
+		            android:layout_below="@id/jnama"
+		            android:layout_marginStart="15dp"
+		            android:layout_marginLeft="15dp"
+		            android:textIsSelectable="true"
+		            android:textSize="12sp"
+		            android:text="@string/npm"/>
+		    <TextView 
+		        android:id="@+id/jrole"
+		        android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_below="@id/jnpm"
+		            android:layout_marginStart="15dp"
+		            android:layout_marginLeft="15dp"
+		            android:textIsSelectable="true"
+		            android:textSize="12sp"
+		            android:text="@string/role"
+		        />
+		
+		    <TextView
+		        android:id="@+id/nama"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentTop="true"
+		        android:layout_marginStart="36dp"
+		        android:layout_marginLeft="15dp"
+		        android:layout_toEndOf="@+id/jrole"
+		        android:layout_toRightOf="@+id/jrole"
+		        android:text="@string/jnama"
+		        android:textIsSelectable="true"
+		        android:textSize="12sp" />
+		
+		    <TextView
+		        android:id="@+id/npm"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_above="@+id/jrole"
+		        android:layout_alignStart="@+id/nama"
+		        android:layout_alignLeft="@+id/nama"
+		        android:text="@string/npm"
+		        android:textIsSelectable="true"
+		        android:textSize="12sp" />
+		
+		    <TextView
+		        android:id="@+id/role"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignBaseline="@+id/jrole"
+		        android:layout_alignBottom="@+id/jrole"
+		        android:layout_alignStart="@+id/npm"
+		        android:layout_alignLeft="@+id/npm"
+		        android:text="@string/role"
+		        android:textIsSelectable="true"
+		        android:textSize="12sp" />
+	    </RelativeLayout>
+</LinearLayout>

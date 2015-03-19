@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+	
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+	    
+	    <LinearLayout
+	        android:id="@+id/rows"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical" >
+	    </LinearLayout>
+	    
+
+		<TextView
+			android:id="@+id/idreg"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textIsSelectable="true"
+		    android:textSize="12sp" />
+			    
+	    <LinearLayout
+	        android:id="@+id/tabel"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" 
+	        android:background="@color/titlebackgroundcolor">
+	        
+	        <TextView 
+				    android:layout_width="60dp"
+				    android:layout_height="wrap_content"
+				    android:textIsSelectable="true"
+				    android:textSize="12sp"
+				    android:text="@string/jnama"
+        			android:gravity="center"
+        			android:layout_weight="1"
+				/>
+				
+				<TextView 
+			        android:layout_width="80dp"
+			        android:layout_height="wrap_content"
+			        android:textIsSelectable="true"
+			        android:textSize="12sp"
+			        android:text="@string/no_hp1"
+        			android:gravity="center"
+			        />
+				<TextView 
+			        android:layout_width="80dp"
+			        android:layout_height="wrap_content"
+			        android:textIsSelectable="true"
+			        android:textSize="12sp"
+			        android:text="@string/email"
+        			android:gravity="center"
+			        />
+				<TextView 
+			        android:layout_width="60dp"
+			        android:layout_height="wrap_content"
+			        android:textIsSelectable="true"
+			        android:textSize="12sp"
+			        android:text="@string/jstatus"
+        			android:gravity="center"
+        			android:layout_weight="2"
+			        />
+	        
+	    </LinearLayout>
+	    <!--  
+		<TableLayout
+			android:id="@+id/tabel"
+			android:layout_below="@id/rows"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+			<TableRow
+		    	android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="#feffcf">
+			</TableRow>
+			<TableRow>
+				<TextView 
+					android:id="@+id/jnama"
+				    android:layout_width="50dp"
+				    android:layout_height="wrap_content"
+				    android:textIsSelectable="true"
+				    android:layout_marginLeft="5dp"
+				    android:layout_marginRight="10dp"
+				    android:textSize="12sp"
+				    android:text="@string/jnama"
+				/>
+				
+				<TextView 
+			        android:id="@+id/jno_hp"
+			        android:layout_width="80dp"
+			        android:layout_height="wrap_content"
+			        android:textIsSelectable="true"
+			        android:layout_marginRight="10dp"
+			        android:textSize="12sp"
+			        android:text="@string/no_hp1"
+			        />
+				<TextView 
+			        android:id="@+id/jno_telp"
+			        android:layout_width="80dp"
+			        android:layout_height="wrap_content"
+			        android:textIsSelectable="true"
+			        android:layout_marginRight="10dp"
+			        android:textSize="12sp"
+			        android:text="@string/no_telp1"
+			        />
+				<TextView 
+			        android:id="@+id/jstatus"
+			        android:layout_width="60dp"
+			        android:layout_height="wrap_content"
+			        android:textIsSelectable="true"
+			        android:layout_marginRight="10dp"
+			        android:textSize="12sp"
+			        android:text="@string/jstatus"
+			        />
+			</TableRow>
+		</TableLayout>
+		-->
+		<LinearLayout
+	        android:id="@+id/rowd"
+	        android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+		
+	    </LinearLayout>	
+	        
+	    <TextView 
+	    		android:id="@+id/tv" 
+	    		android:layout_width="fill_parent"
+	    		android:layout_height="wrap_content"
+	    		android:text=""
+	    />
+	    
+	    <LinearLayout
+	     	android:orientation="horizontal"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" >
+	    
+		    <!--
+		    <Button 
+		        android:id="@+id/batal"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/batal"
+		        android:layout_gravity="start"
+		        android:contentDescription="@string/batal"
+		        />
+		     -->
+		    <ImageButton
+		            android:id="@+id/batal"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:src="@drawable/deletemark"
+		            android:contentDescription="@string/batal" />
+		    <LinearLayout
+		        android:orientation="horizontal"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="end" >
+
+		        <ImageButton
+		            android:id="@+id/drop"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:src="@drawable/checkmark"
+		            android:contentDescription="@string/drop" />
+			    <!--
+			    <Button 
+			        android:id="@+id/drop"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/drop"
+			        android:contentDescription="@string/drop"
+			        />
+			    -->
+	    	</LinearLayout>
+    	</LinearLayout>
+	</LinearLayout>
+</ScrollView>

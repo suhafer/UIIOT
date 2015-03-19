@@ -1,0 +1,107 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+>
+	<LinearLayout
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+	>
+<!--android:background="@drawable/kotak_nebeng"  -->
+  
+   		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:src="@drawable/roomlah"
+			android:contentDescription="@string/app_name"
+		/>
+	
+		<RelativeLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+			android:layout_gravity="center"
+		    >
+			
+			<TextView
+		        android:id="@+id/jnama"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="15dp"
+		        android:layout_marginStart="15dp"
+		        android:text="@string/jnama"
+		        android:textIsSelectable="true"
+		        android:textSize="12sp" />
+		
+		    <TextView
+		        android:id="@+id/nama"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginStart="10dp"
+		        android:layout_marginLeft="10dp"
+		        android:layout_toEndOf="@+id/jtujuan"
+		        android:layout_toRightOf="@+id/jtujuan"
+		        android:text="@string/jnama"
+		        android:textIsSelectable="true"
+		        android:textSize="12sp" />
+		
+		    <TextView
+		        android:id="@+id/jasal"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@id/jnama"
+		        android:layout_marginStart="15dp"
+		        android:layout_marginLeft="15dp"
+		        android:text="@string/jasal"
+		        android:textIsSelectable="true"
+		        android:textSize="12sp" />
+		
+		    <TextView
+		        android:id="@+id/asal"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@id/nama"
+		        android:layout_marginStart="10dp"
+		        android:layout_marginLeft="10dp"
+		        android:layout_toEndOf="@+id/jtujuan"
+		        android:layout_toRightOf="@+id/jtujuan"
+		        android:text="@string/jasal"
+		        android:textIsSelectable="true"
+		        android:textSize="12sp" />
+
+		    <TextView
+		        android:id="@+id/jtujuan"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@id/jasal"
+		        android:layout_marginStart="15dp"
+		        android:layout_marginLeft="15dp"
+		        android:text="@string/jtujuan"
+		        android:textIsSelectable="true"
+		        android:textSize="12sp" />
+		
+		    <TextView
+		        android:id="@+id/tujuan"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@id/asal"
+		        android:layout_marginStart="10dp"
+		        android:layout_marginLeft="10dp"
+		        android:layout_toRightOf="@+id/jtujuan"
+		        android:layout_toEndOf="@+id/jtujuan"
+		        android:text="@string/jtujuan"
+		        android:textIsSelectable="true"
+		        android:textSize="12sp" />  
+			    
+	    </RelativeLayout>
+	</LinearLayout>
+	
+	<TextView
+		android:id="@+id/tv11"
+		android:layout_width="fill_parent"
+		android:layout_height="7dp"
+		android:background="@color/titlebackgroundcolor"/>
+</LinearLayout>

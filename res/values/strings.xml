@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IOT</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="user">Username</string>
+    <string name="pass">Password</string>
+    <string name="signin">SIGN IN</string>
+    <string name="login">Silakan masukkan username dan password</string>
+    <string name="login1">sesuai dengan akun UI Anda.</string>
+    <string name="login2">Silahkan masukkan data kontak anda</string>
+    <string name="gmaps">GM</string>
+    
+    <string name="about1">Version 0.2</string>
+    <string name="about4">Irit Ongkos Transport</string>
+    <string name="about2">Copyright @2014 IOT Developer Team</string>
+    <string name="about3">All right reserved</string>
+    
+    <string name="drawer_open">Open drawer</string>
+    <string name="drawer_close">Close drawer</string>
+    
+    <string name="jnama">Nama</string>
+    <string name="jtujuan">Tujuan</string>
+    <string name="jasal">Asal</string>
+    <string name="jkapasitas">Kuota</string>
+    <string name="npm">NPM</string>
+    <string name="w_b">Waktu Berangkat</string>
+    <string name="j_b">Jam Berangkat</string>
+    <string name="sid">Id Pengguna </string>
+    <string name="role">Status</string>
+    <string name="j_k">Keterangan</string>
+    
+    <string name="w_s">13:45</string>
+    <string name="setting">Jam</string>
+    <string name="casal">Contoh: Balairung</string>
+    <string name="ctujuan">Contoh: Kelapa dua</string>
+    <string name="id">Id Tebengan :</string>
+    <string name="drop">Hapus</string>
+    <string name="no_1">1</string>
+    <string name="no_2">2</string>
+    <string name="no_3">3</string>
+    <string name="no_4">4</string>
+    <string name="no_5">5</string>
+    <string name="no_6">6</string>
+    <string name="submit">MASUKAN</string>
+    <string name="refresh">MuatUlang</string>
+    
+    <string name="jekel">Jenis Kelamin</string>
+    <string name="email">Email</string>
+    <string name="jlokasi">Lokasi</string>
+    <string name="jtelp">Telpon/Handphone</string>
+    <string name="no_hp">Nomor Handphone</string>
+    <string name="no_telp">Nomor Telpon</string>
+    <string name="jstatus">Status</string>
+    <string name="alamat">Alamat</string>
+    <string name="nebeng">Nebeng</string>
+    <string name="batal">Batal</string>
+    <string name="no_hp1">Handphone</string>
+    <string name="no_telp1">Telpon</string>
+    <string name="back">Kembali</string>
+    <string name="status">Status</string>
+    <string name="spasi">         </string>
+    
+    
+
+</resources>

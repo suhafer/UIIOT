@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="titlebackgroundcolor">#FFFF00</color>
+    <color name="titletextcolor">#0d0d0d</color>
+    <color name="bg_action_bar">#fffacd</color>
+</resources>

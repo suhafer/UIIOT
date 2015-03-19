@@ -1,0 +1,100 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	>
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/title3"
+       	android:contentDescription="@string/app_name"
+        />
+	    <LinearLayout
+	     	android:orientation="horizontal"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" >
+	    
+		    <ImageView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center"
+		        android:src="@drawable/title1"
+       			android:contentDescription="@string/app_name"
+		        />
+		    <ImageView
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center"
+		        android:src="@drawable/ui3"
+       			android:contentDescription="@string/app_name"
+       			android:layout_weight="1"
+		        />
+		    <ImageView
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+		        android:layout_gravity="center"
+			    android:src="@drawable/title2"
+       			android:contentDescription="@string/app_name"
+			    />
+    	</LinearLayout>
+    
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:layout_gravity="center" />
+	<TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login1"
+        android:layout_gravity="center" />
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/user"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:inputType="text" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pass"
+        android:layout_gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/signin" />
+
+</LinearLayout>
+</ScrollView>

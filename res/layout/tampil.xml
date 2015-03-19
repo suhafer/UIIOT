@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="10dp"
+    android:layout_marginRight="10dp"
+    tools:context=".Nebeng" >
+
+    <TextView
+        android:id="@+id/jnama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:text="@string/jnama"
+        android:textIsSelectable="true"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/jw_b"
+        android:textIsSelectable="true"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/jnpm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jnama"
+        android:layout_marginLeft="15dp"
+        android:text="@string/npm"
+        android:textIsSelectable="true"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/npm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nama"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/jw_b"
+        android:textIsSelectable="true"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/jid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jnpm"
+        android:layout_marginLeft="15dp"
+        android:text="@string/sid"
+        android:textIsSelectable="true"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/user_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/npm"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/jw_b"
+        android:textIsSelectable="true"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/jasal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jid"
+        android:layout_marginLeft="15dp"
+        android:text="@string/jasal"
+        android:textIsSelectable="true"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/asal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_id"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/jw_b"
+        android:textIsSelectable="true"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/jtujuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jasal"
+        android:layout_marginLeft="15dp"
+        android:text="@string/jtujuan"
+        android:textIsSelectable="true"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tujuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/asal"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/jw_b"
+        android:textIsSelectable="true"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/jkapasitas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jtujuan"
+        android:layout_marginLeft="15dp"
+        android:text="@string/jkapasitas"
+        android:textIsSelectable="true"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/kapasitas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tujuan"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/jw_b"
+        android:textIsSelectable="true"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/jw_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jkapasitas"
+        android:layout_marginLeft="15dp"
+        android:text="@string/w_b"
+        android:textIsSelectable="true"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/w_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kapasitas"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/jw_b"
+        android:textIsSelectable="true"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/jj_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jw_b"
+        android:layout_marginLeft="15dp"
+        android:text="@string/j_b"
+        android:textIsSelectable="true"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/j_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/w_b"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/jw_b"
+        android:textIsSelectable="true"
+        android:textSize="12sp" />
+    
+    <TextView
+        android:id="@+id/j_k"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jj_b"
+        android:layout_marginLeft="15dp"
+        android:text="@string/j_k"
+        android:textIsSelectable="true"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv11"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/j_k"
+        android:background="#feffcf"
+        android:text="@string/spasi" />
+
+    <TextView
+        android:id="@+id/k"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv11"
+        android:layout_alignLeft="@+id/user_id"
+        android:text="@string/j_b"
+        android:textIsSelectable="true"
+        android:textSize="12sp" />
+
+</RelativeLayout>
